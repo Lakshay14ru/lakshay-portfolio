@@ -1,4 +1,3 @@
-
 function App() {
   return (
     <div className="portfolio">
@@ -54,13 +53,9 @@ function App() {
             Python, data analytics, and machine learning to
             solve practical problems. I enjoy developing
             projects that combine programming with data-driven
-            insights.
-
-            {" "}
-
-            My goal is to build a career in data analytics
-            and data science while continuously strengthening
-            my technical and problem-solving skills.
+            insights. My goal is to build a career in data
+            analytics and data science while continuously
+            strengthening my technical and problem-solving skills.
           </p>
 
           <div className="about-cards">
@@ -171,9 +166,9 @@ function App() {
                 className="project-link"
                 href="https://github.com/Lakshay14ru/InsightGPT-Lite"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
-                View on GitHub ↗
+                View Repository ↗
               </a>
             </article>
 
@@ -200,11 +195,11 @@ function App() {
 
               <a
                 className="project-link"
-                href="https://github.com/Lakshay14ru"
+                href="https://github.com/Lakshay14ru/Titanic-Survival-Prediction"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
-                Explore GitHub ↗
+                View Repository ↗
               </a>
             </article>
           </div>
@@ -225,7 +220,6 @@ function App() {
           </p>
 
           <div className="contact-links">
-            
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=lakshaykundariyayt@gmail.com"
               target="_blank"
@@ -235,11 +229,10 @@ function App() {
               Email Me ↗
             </a>
 
-
             <a
               href="https://www.linkedin.com/in/lakshay-kundariya/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn btn-secondary"
             >
               LinkedIn ↗
@@ -248,7 +241,7 @@ function App() {
             <a
               href="https://github.com/Lakshay14ru"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn btn-secondary"
             >
               GitHub ↗
@@ -262,6 +255,7 @@ function App() {
         <p>
           © {new Date().getFullYear()} Lakshay Kundariya
         </p>
+
         <p>Built with React &amp; CSS</p>
       </footer>
     </div>
