@@ -32,14 +32,22 @@ function App() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">
-              Explore Projects
-            </a>
+           <a href="#projects" className="btn btn-primary">
+            Explore Projects
+           </a>
 
-            <a href="#contact" className="btn btn-secondary">
-              Get in Touch
-            </a>
-          </div>
+           <a href="#contact" className="btn btn-secondary">
+            Get in Touch
+           </a>
+
+          <a
+          href="/Lakshay_Kundariya_Resume.pdf"
+          download="Lakshay_Kundariya_Resume.pdf"
+          className="btn btn-secondary"
+          >
+          Download Resume ↓
+        </a>
+      </div>
         </section>
 
         {/* About Section */}
